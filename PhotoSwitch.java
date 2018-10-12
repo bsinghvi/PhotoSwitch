@@ -44,7 +44,7 @@ public class PhotoSwitch extends JFrame implements ActionListener, ChangeListene
 	
 	public static void main(String[] args) throws IOException 
 	{
-		PhotoDriver obj= new PhotoDriver();
+		PhotoSwitch obj= new PhotoSwitch();
 		obj.setVisible(true);
 	}
 	public PhotoSwitch() throws IOException
@@ -55,8 +55,8 @@ public class PhotoSwitch extends JFrame implements ActionListener, ChangeListene
 		setLayout(new BorderLayout());
 		JPanel northPanel = new JPanel();
 			northPanel.setBackground(new Color(154, 205, 50));
-			JLabel title = new JLabel("PhotoFilter ");
-			Font newFont1 = new Font("Impact", Font.ITALIC, 26);
+			JLabel title = new JLabel("PhotoSwitch");
+			Font newFont1 = new Font("Impact", Font.ITALIC, 30);
 			title.setFont(newFont1);
 			northPanel.add(title);
 		add(northPanel,BorderLayout.NORTH);
